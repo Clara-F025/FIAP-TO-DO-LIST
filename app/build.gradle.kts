@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "claraf025.com.github.fiap_to_do_list"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "claraf025.com.github.fiap_to_do_list"
