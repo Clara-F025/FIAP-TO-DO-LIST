@@ -182,3 +182,14 @@ Após iniciar o aplicativo, a tela principal exibirá a lista de tarefas. O usu�
 ```
 
 Os testes instrumentados exigem um emulador ou dispositivo Android conectado. Entre eles está o `TarefaDaoTest`, responsável por testar o acesso aos dados por meio do DAO.
+
+
+
+## Evidências do projeto
+
+As evidências de funcionamento do projeto estão disponíveis no arquivo:
+
+`docs/evidencias - Evidências do Projeto.pdf`
+
+O documento contém registros que demonstram o funcionamento da aplicação e das principais funcionalidades implementadas.
+
