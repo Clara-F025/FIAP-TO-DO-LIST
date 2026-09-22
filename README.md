@@ -50,7 +50,7 @@ O estado coletado é passado para `ListaTarefasContent`, que funciona como um co
 As principais ações realizadas pela tela são:
 
 - **Marcar ou desmarcar uma tarefa:** o callback `onCheckedChange` cria uma cópia da tarefa utilizando `copy(concluida = ...)` e chama `viewModel.atualizar()`.
-- **Excluir uma tarefa:** o callback `onDeletar` chama `viewModel.deletar(tarefa)`.
+- **Excluir uma tarefa:** ao tocar no ícone de lixeira de um item, um diálogo de confirmação (`AlertDialog` do Material 3) é exibido apresentando o título da tarefa selecionada. Caso o usuário confirme em **Excluir**, o callback `onDeletar` aciona `viewModel.deletar(tarefa)`. Caso selecione **Cancelar**, o diálogo é fechado sem alterar a lista.
 - **Editar uma tarefa:** ao tocar em um item da lista, o callback `onEditarTarefa` solicita a navegação para o formulário passando o ID da tarefa.
 - **Criar uma nova tarefa:** o botão flutuante (FAB) chama `onNovaTarefa`, levando o usuário ao formulário sem uma tarefa existente.
 
@@ -187,9 +187,11 @@ Os testes instrumentados exigem um emulador ou dispositivo Android conectado. En
 
 ## Evidências do projeto
 
-As evidências de funcionamento do projeto estão disponíveis no arquivo:
+As evidências do fluxo de confirmação de exclusão estão detalhadas em:
 
-`docs/evidencias - Evidências do Projeto.pdf`
+- `EVIDENCIAS_EXCLUSAO.md`
 
-O documento contém registros que demonstram o funcionamento da aplicação e das principais funcionalidades implementadas.
+Demais registros do projeto estão disponíveis em:
+
+- `docs/evidencias - Evidências do Projeto.pdf`
 
