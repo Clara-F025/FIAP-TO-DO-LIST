@@ -10,13 +10,13 @@ Exibição da lista de tarefas cadastradas na aplicação antes de solicitar qua
 ---
 
 ### 2. Diálogo de Confirmação Aberto com a Tarefa Selecionada
-Ao tocar no ícone de lixeira da tarefa *"Estudar"*, o diálogo de confirmação é exibido em camada sobre a lista, apresentando o título da tarefa e informando claramente que ela será excluída.
+Ao tocar no ícone de lixeira da tarefa *"Fazer checkpoint de kotlin"*, o diálogo de confirmação é exibido em camada sobre a lista, apresentando o título da tarefa e informando claramente que ela será excluída.
 
 ![img_3.png](img_3.png)
 ---
 
 ### 3. Resultado após Ação de Cancelar
-Ao selecionar a opção **Cancelar**, o diálogo é fechado sem realizar nenhuma alteração no banco de dados e a tarefa *"Estudar"* permanece intacta na lista.
+Ao selecionar a opção **Cancelar**, o diálogo é fechado sem realizar nenhuma alteração no banco de dados e a tarefa *"Fazer checkpoint de kotlin"* permanece intacta na lista.
 
 ![img_4.png](img_4.png)
 ---
